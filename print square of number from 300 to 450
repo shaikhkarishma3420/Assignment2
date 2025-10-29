@@ -1,0 +1,15 @@
+package homewwork;
+
+public class Assing4 {
+	public static void main(String[] args) {
+		int k=300;
+		while(k<=450) {
+			if(k%2==0) {
+				int square =k*k;
+				System.out.println(square);
+			}
+			k++;
+		}
+	}
+
+}

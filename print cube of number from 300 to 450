@@ -1,0 +1,15 @@
+package homewwork;
+
+public class Assing3 {
+	public static void main(String[] args) {
+		for(int k=300;k<=450;k++) {
+			if(k%2==0) {
+				int cube=k*k*k;
+				System.out.println(cube);
+			}
+			k++;
+			
+		}
+	}
+
+}

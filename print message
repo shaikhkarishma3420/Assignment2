@@ -1,0 +1,28 @@
+package homewwork;
+
+import java.util.Scanner;
+
+public class Assign9 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter 1st number");
+		int first=sc.nextInt();
+		System.out.println("Enter 2nd number");
+		int last=sc.nextInt();
+		for(int k=first;k<=last;k++) {
+			if(k%3==0 && k%5==0) {
+				System.out.println("Mango and Apple");
+			}
+			else if(k%3==0) {
+				System.out.println("Mango");
+			}
+			else if(k%5==0) {
+				System.out.println("Apple");
+			}
+			else {
+				System.out.println(k);
+			}
+		}
+		
+}
+}

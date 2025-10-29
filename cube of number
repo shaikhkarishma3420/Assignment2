@@ -1,0 +1,15 @@
+package homewwork;
+
+public class Assign5 {
+	public static void main(String[] args) {
+		int k=300;
+		while(k<=450) {
+			if(k%2!=0) {
+				int cube=k*k*k;
+				System.out.println(cube);
+			}
+			k++;
+		}
+	}
+
+}

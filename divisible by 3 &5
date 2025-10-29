@@ -1,0 +1,14 @@
+package homewwork;
+
+public class Assign8 {
+	public static void main(String[] args) {
+		int k=555;
+		while(k<=999) {
+			if(k%3==0 && k%5==0) {
+				System.out.println(k);
+			}
+			k++;
+		}
+	}
+
+}
